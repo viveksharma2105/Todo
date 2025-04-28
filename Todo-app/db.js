@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.ObjectId;
-mongoose.connect("mongodb+srv://23csu347:vivek23csu347@cluster0.5guydqd.mongodb.net/todo-app")
+mongoose.connect("mongodb+srv://23csu347:Password@cluster0.5guydqd.mongodb.net/todo-app")
 
 //user schema
 const User = new Schema({
